@@ -1,4 +1,6 @@
-﻿namespace Ktt.ScopeTest.Services.Context;
+﻿using Ktt.ScopeTest.Business.Context;
+
+namespace Ktt.ScopeTest.Services.Context;
 
 public class LabelContextProvider(IHttpContextAccessor accessor)
 {

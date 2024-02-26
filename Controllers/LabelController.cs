@@ -1,7 +1,7 @@
-﻿using Ktt.ScopeTest.Services;
+﻿using Ktt.ScopeTest.Business;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Ktt.ScopeTest.Controllers;
+namespace Ktt.ScopeTest.Api.Controllers;
 
 [ApiController]
 [Route("label/{label}")]

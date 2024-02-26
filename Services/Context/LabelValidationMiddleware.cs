@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.Extensions;
+﻿using Ktt.ScopeTest.Business.Context;
+using Microsoft.AspNetCore.Http.Extensions;
 
 namespace Ktt.ScopeTest.Services.Context;
 

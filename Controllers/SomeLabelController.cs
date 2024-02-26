@@ -1,4 +1,4 @@
-﻿using Ktt.ScopeTest.Services;
+﻿using Ktt.ScopeTest.Business;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Ktt.ScopeTest.Controllers;
