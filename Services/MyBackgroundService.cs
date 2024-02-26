@@ -2,11 +2,11 @@
 
 namespace Ktt.ScopeTest.Services;
 
-public sealed class MyLabelProcessor(
+public sealed class MyBackgroundService(
     IServiceScopeFactory serviceScopeFactory,
-    ILogger<MyLabelProcessor> logger) : BackgroundService
+    ILogger<MyBackgroundService> logger) : BackgroundService
 {
-    private const string _className = nameof(MyLabelProcessor);
+    private const string _className = nameof(MyBackgroundService);
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {

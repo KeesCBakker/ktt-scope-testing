@@ -8,7 +8,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<LabelContextProvider>();
 builder.Services.AddScoped(builder => builder.GetRequiredService<LabelContextProvider>().Context);
 builder.Services.AddTransient<MyService>();
-builder.Services.AddHostedService<MyLabelProcessor>();
+builder.Services.AddHostedService<MyBackgroundService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
